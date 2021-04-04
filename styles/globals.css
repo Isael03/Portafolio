@@ -1,10 +1,37 @@
+/**Start Structure*/
 html,
-body {
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100%;
+  position: relative;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
 }
+
+.wrapper {
+  margin-bottom: 2rem;
+  min-height: 100%;
+  z-index: 100;
+}
+
+/*.content {
+  min-height: 77.6vh;
+  margin-bottom: 4rem;
+}*/
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0 !important;
+  left: 0;
+  clear: both;
+  z-index: 1;
+}
+/**End Structrure*/
 
 a {
   color: inherit;
@@ -14,3 +41,67 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/** ---Start Progress Bar ---*/
+#nprogress .bar {
+  background: #ffbb00 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ffbb00 !important;
+  border-left-color: #ffbb00 !important;
+}
+/**----End Progress Bar-----*/
+
+/** Start Cards*/
+.overflow {
+  height: 50%;
+  overflow: hidden;
+}
+
+.card-img-top {
+  min-height: 100%;
+  background-color: brown;
+}
+
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+/** End Cards*/
+
+/**Start Scrollbar*/
+/*Mozilla*/
+* {
+  scrollbar-width: 8px;
+  scrollbar-color: #ccc white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px; /* Tamaño del scroll en vertical */
+  height: 8px; /* Tamaño del scroll en horizontal */
+  /*display: none;*/
+}
+
+*::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+/**End Scrollbar*/
