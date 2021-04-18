@@ -31,23 +31,23 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software developer at SpaceX",
+    title: "Software developer at ...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.Error eos quis, temporibus quae possimus corporis recusandae quasi voluptates consectetur a in eveniet consequuntur fugit ut officia excepturi facere ipsam, ducimus pariatur rem porro, beatae reprehenderit laborum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.",
     from: 2010,
     to: null,
   },
   {
-    title: "Software developer at Microsoft",
+    title: "Software developer at ...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.Error eos quis, temporibus quae possimus corporis recusandae quasi voluptates consectetur a in eveniet consequuntur fugit ut officia excepturi facere ipsam, ducimus pariatur rem porro, beatae reprehenderit laborum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.",
     from: 2005,
     to: 2007,
   },
   {
-    title: "Software developer at Google",
+    title: "Software developer at ...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.Error eos quis, temporibus quae possimus corporis recusandae quasi voluptates consectetur a in eveniet consequuntur fugit ut officia excepturi facere ipsam, ducimus pariatur rem porro, beatae reprehenderit laborum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas odit omnis voluptates, odio quaerat, consectetur amet illum illo eligendi maxime ducimus expedita animi ea, deleniti sequi recusandae libero deserunt.",
     from: 2000,
     to: 2005,
   },
@@ -71,7 +71,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam atque eveniet in culpa debitis et natus aliquam a voluptas molestiae eum blanditiis iure ratione reprehenderit, ab animi corporis excepturi.",
     image: "images/portfolio3.png",
-  },
+  } /*,
   {
     name: "Website 4",
     description:
@@ -89,26 +89,28 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam atque eveniet in culpa debitis et natus aliquam a voluptas molestiae eum blanditiis iure ratione reprehenderit, ab animi corporis excepturi.",
     image: "images/portfolio6.jpeg",
-  },
+  },*/,
 ];
 
 export const posts = [
   {
-    title: "React",
+    title: "Nombre",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur animi molestias a incidunt assumenda. Velit cum eos ipsum, repellendus necessitatibus magnam corporis debitis consequuntur, nihil impedit nesciunt sapiente non saepe.",
     imageURL: "https://miro.medium.com/max/1280/1*Enkcn-vHRL596oFyvBW9Hw.png",
   },
   {
-    title: "Angular",
+    title: "Nombre",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur animi molestias a incidunt assumenda. Velit cum eos ipsum, repellendus necessitatibus magnam corporis debitis consequuntur, nihil impedit nesciunt sapiente non saepe.",
     imageURL: "https://cdn.wallpapersafari.com/97/67/LAZgqI.png",
   },
   {
-    title: "Vue",
+    title: "Nombre",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur animi molestias a incidunt assumenda. Velit cum eos ipsum, repellendus necessitatibus magnam corporis debitis consequuntur, nihil impedit nesciunt sapiente non saepe.",
     imageURL: "https://wallpaperaccess.com/full/4584343.jpg",
   },
 ];
+
+export const githubLink = "https://github.com/Isael03";
