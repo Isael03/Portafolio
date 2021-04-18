@@ -14,7 +14,7 @@ export const Card: FunctionComponent<ICard> = ({
 }) => {
   return (
     <>
-      <div className="card h-100">
+      <div className="card h-100 rounded-lg">
         <div className="overflow">
           <img
             src={`/${image}`}
@@ -26,7 +26,7 @@ export const Card: FunctionComponent<ICard> = ({
         <div className="card-body">
           <h3>{name}</h3>
           <p>{description}</p>
-          <a href="#!">Know more</a>
+          <a href="#!">Ver más</a>
         </div>
       </div>
     </>

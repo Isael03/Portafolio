@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import "bootswatch/dist/cosmo/bootstrap.min.css";
+import { PortfolioProvider } from "../contexts/portfolio.context";
 
 function MyApp({ Component, pageProps }) {
   if (typeof window !== "undefined") {
@@ -8,7 +9,11 @@ function MyApp({ Component, pageProps }) {
     import("bootstrap/dist/js/bootstrap.bundle");
   }
 
-  return <Component {...pageProps} />;
+  return (
+    <PortfolioProvider>
+      <Component {...pageProps} />
+    </PortfolioProvider>
+  );
 }
 
 export default MyApp;
